@@ -1,6 +1,6 @@
 package String;
 
-public class rotationOfString {
+public class RotationOfString {
 
     public static boolean areRotations(String s1,String s2){
         return (s1.length() == s2.length()) &&  ((s1 + s1).indexOf(s2) != -1) ;
