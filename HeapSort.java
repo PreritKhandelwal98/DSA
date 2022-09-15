@@ -1,5 +1,5 @@
 package InJava.Sorting;
-class heapSort  
+class HeapSort  
 {  
 /* function to heapify a subtree. Here 'i' is the   
 index of root node in array a[], and 'n' is the size of heap. */   
