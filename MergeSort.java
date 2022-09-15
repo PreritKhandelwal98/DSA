@@ -1,6 +1,6 @@
 package InJava.Sorting;
 import java.util.Scanner;
-public class mergeSort {  
+public class MergeSort {  
         public static void conquer(int[] arr,int si ,int mid, int ei){
                 int b[] = new int[ei-si+1];
 
