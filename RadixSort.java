@@ -1,6 +1,6 @@
 package InJava.Sorting;
 import java.util.Scanner;
-public class radixSort {  
+public class RadixSort {  
         static void radixSort(int[] arr){
 
         }
