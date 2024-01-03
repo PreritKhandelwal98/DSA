@@ -1,17 +1,18 @@
-package InJava.LinkedList;
+
 public class Traversing {
     Node head;
-    class Node{
+
+    class Node {
         int data;
         Node next;
 
-        Node(int data){
+        Node(int data) {
             this.data = data;
             this.next = null;
         }
     }
 
-    void addFirst(int data){
+    void addFirst(int data) {
         Node newNode = new Node(data);
 
         newNode.next = head;
@@ -19,28 +20,29 @@ public class Traversing {
     }
 
     // void addLast(int data){
-    //     Node newNode = new Node(data);
+    // Node newNode = new Node(data);
 
-    //     if(head == null) {
-    //         head = newNode;
-    //         return;
-    //     }
-    //     Node lastNode = head;
-    //     while(lastNode.next!=0){
-    //         lastNode = lastNode.next;
-    //     }
-    //     lastNode.next = newNode;
+    // if(head == null) {
+    // head = newNode;
+    // return;
+    // }
+    // Node lastNode = head;
+    // while(lastNode.next!=0){
+    // lastNode = lastNode.next;
+    // }
+    // lastNode.next = newNode;
     // }
 
-    void printNode(){
+    void printNode() {
         Node currNode = head;
 
-        while(currNode.next!=null){
-           System.out.print(currNode.data+" -> ");
-           currNode = currNode.next;
+        while (currNode.next != null) {
+            System.out.print(currNode.data + " -> ");
+            currNode = currNode.next;
         }
     }
-    public static void main(String args[]){
+
+    public static void main(String args[]) {
         Traversing t = new Traversing();
 
         t.addFirst(4);
@@ -48,10 +50,10 @@ public class Traversing {
         t.addFirst(2);
         t.addFirst(1);
 
-        //t.addLast(6);
+        // t.addLast(6);
         t.printNode();
 
-        //t.addLast(7);
+        // t.addLast(7);
         t.printNode();
     }
 }
