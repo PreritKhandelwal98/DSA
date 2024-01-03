@@ -1,5 +1,3 @@
-package Array.2-D;
-
 public class SprialOrderTraversal {
   public static void main(String[] args) {
     int[][] arr = {
