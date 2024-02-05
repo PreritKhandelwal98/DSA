@@ -1,6 +1,6 @@
 package Graph;
 
-public class GraphRepresentation {
+public class MatrixGraphRepresentation {
     private int V;
     private int E;
     private int[][] adjMatrix;
