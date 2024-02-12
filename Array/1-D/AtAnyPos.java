@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class AtAnyPos {
     public static void main(String args[]) {
-        int[] arr = new int[100];
+        int[] arr = new int[20];
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Enter Size of Array");
