@@ -1,8 +1,6 @@
 import java.util.Scanner;
 import java.util.Set;
 
-import javax.swing.plaf.synth.SynthStyle;
-
 import java.util.Arrays;
 import java.util.HashSet;
 public class RepeatandMissingNumber {
